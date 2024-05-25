@@ -1,6 +1,7 @@
-const express = require("express");
+import express from "express";
+import FunctionModel from "./schema.js";
+
 const router = express.Router();
-const FunctionModel = require("./schema"); // Assuming your schema.js file is in the same directory
 
 router.use(express.json());
 
@@ -59,4 +60,4 @@ router.post("/save", async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;

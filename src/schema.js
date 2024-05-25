@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const replySchema = new mongoose.Schema(
   {
@@ -31,4 +31,4 @@ const functionSchema = new mongoose.Schema(
 
 const FunctionModel = mongoose.model("js-files", functionSchema);
 
-module.exports = FunctionModel;
+export default FunctionModel;
