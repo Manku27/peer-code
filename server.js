@@ -3,11 +3,11 @@ const path = require("path");
 const app = express();
 const port = 8006;
 const schemaRoutes = require("./src/api");
-
+require("dotenv").config();
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://localhost:27017/peerCode", {
+  .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
