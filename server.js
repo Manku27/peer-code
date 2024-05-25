@@ -3,7 +3,6 @@ const path = require("path");
 const app = express();
 const port = 8006;
 const schemaRoutes = require("./src/api");
-require("dotenv").config();
 const mongoose = require("mongoose");
 
 mongoose
