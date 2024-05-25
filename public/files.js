@@ -10,6 +10,12 @@ document.getElementById("functionForm").addEventListener("submit", function (eve
     return;
   }
 
+  const user = localStorage.getItem("whoareyou");
+  if (user !== "iamgod") {
+    alert("Denied.");
+    return;
+  }
+
   const jsonPayload = {
     questionNumber: parseInt(questionNumber),
     questionName: questionName,
