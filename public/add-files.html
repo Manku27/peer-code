@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert Function to JSON and Save</title>
+  </head>
+  <body>
+    <h1>Convert JavaScript Function to JSON and Save</h1>
+    <form id="functionForm">
+      <label for="questionNumber">Question Number:</label>
+      <input type="number" id="questionNumber" required /><br /><br />
+      <label for="questionName">Question Name:</label>
+      <input type="text" id="questionName" required /><br /><br />
+      <label for="functionInput">JavaScript Function:</label><br />
+      <textarea
+        id="functionInput"
+        rows="15"
+        cols="80"
+        placeholder="Paste your JavaScript function here..."
+        required
+      ></textarea
+      ><br /><br />
+      <button type="submit">Convert and Save</button>
+    </form>
+
+    <script src="files.js"></script>
+  </body>
+</html>
