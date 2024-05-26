@@ -9,7 +9,8 @@
     "dev": "nodemon --env-file .env server.js",
     "prod": "node --env-file .env.production server.js",
     "obfuscate": "javascript-obfuscator public/script.js --output public/script.min.js && javascript-obfuscator public/files.js --output public/files.min.js",
-    "minify-css": "cleancss -o public/styles.min.css public/styles.css"
+    "minify-css": "cleancss -o public/styles.min.css public/styles.css",
+    "build": "npm run obfuscate && npm run minify-css "
   },
   "repository": {
     "type": "git",
