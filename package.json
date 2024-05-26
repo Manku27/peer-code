@@ -9,7 +9,7 @@
     "dev": "nodemon --env-file .env server.js",
     "prod": "node --env-file .env.production server.js",
     "obfuscate": "javascript-obfuscator public/script.js --output public/script.min.js && javascript-obfuscator public/files.js --output public/files.min.js",
-    "minify-css": "postcss public/style.css -o public/style.min.css --use cssnano"
+    "minify-css": "cleancss -o public/styles.min.css public/styles.css"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "mongoose": "^8.4.0"
   },
   "devDependencies": {
+    "clean-css": "^5.3.3",
+    "clean-css-cli": "^5.6.3",
     "javascript-obfuscator": "^4.1.0",
     "nodemon": "^3.1.0"
   }
