@@ -1,6 +1,6 @@
 import express from "express";
 import path from "path";
-import schemaRoutes from "./src/api.js";
+import schemaRoutes from "./src/api/api.js";
 import mongoose from "mongoose";
 
 mongoose
@@ -22,6 +22,8 @@ const __dirname = import.meta.dirname;
 
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, "public")));
+
+app.use(express.static(path.join(__dirname, process.env.SOURCE)));
 
 // Endpoint for mongodb apis
 app.use(schemaRoutes);
