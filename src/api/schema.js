@@ -1,23 +1,15 @@
 import mongoose from "mongoose";
 
-const replySchema = new mongoose.Schema(
-  {
-    author: String,
-    content: String,
-    createdAt: { type: Date, default: Date.now },
+const commentSchema = new mongoose.Schema({
+  text: {
+    type: String,
+    required: true,
   },
-  { collection: "js-files" }
-);
-
-const commentSchema = new mongoose.Schema(
-  {
-    author: String,
-    content: String,
-    createdAt: { type: Date, default: Date.now },
-    replies: [replySchema],
+  createdAt: {
+    type: Date,
+    default: Date.now,
   },
-  { collection: "js-files" }
-);
+});
 
 const functionSchema = new mongoose.Schema(
   {

@@ -5,14 +5,41 @@ body {
   margin: 20px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left,
+.right {
+  width: 48%;
+}
+
+.left {
+  max-width: 800px;
+}
+
+.right {
+  max-width: 400px;
+}
+
 label {
   font-weight: bold;
 }
 
 input[type="text"],
-input[type="submit"] {
+input[type="submit"],
+textarea,
+input[type="number"],
+button {
   padding: 5px;
   margin: 5px;
+  width: calc(100% - 20px); /* Adjust for padding and margin */
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
 }
 
 pre {
@@ -24,4 +51,35 @@ code {
   display: block;
   padding: 10px;
   border: 1px solid #ccc;
+}
+
+.comments-list {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+/* Styles for the new HTML file */
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
 }

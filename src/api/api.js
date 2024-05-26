@@ -20,7 +20,11 @@ router.get("/search", async (req, res) => {
       .limit(1); // Sort by questionNumber and limit to 1 result
 
     if (searchResult.length > 0) {
-      res.json({ success: true, content: searchResult[0].value });
+      res.json({
+        success: true,
+        content: searchResult[0].value,
+        questionNumber: searchResult[0].questionNumber,
+      });
     } else {
       res.json({ success: false, message: "No matching function found." });
     }
@@ -57,6 +61,44 @@ router.post("/save", async (req, res) => {
   } catch (error) {
     console.error("Error saving function:", error);
     res.status(500).json({ success: false, error: "Error saving function" });
+  }
+});
+
+router.get("/comments", async (req, res) => {
+  const { questionNumber } = req.query;
+  try {
+    const functionDoc = await FunctionModel.findOne({ questionNumber });
+    if (functionDoc) {
+      res.json({ success: true, comments: functionDoc.comments });
+    } else {
+      res.json({ success: false, message: "No function found with the given question number" });
+    }
+  } catch (error) {
+    console.error("Error fetching comments:", error);
+    res.status(500).json({ success: false, error: "Error fetching comments" });
+  }
+});
+
+router.post("/comments", async (req, res) => {
+  const { questionNumber, comment } = req.body;
+  try {
+    if (!questionNumber || !comment) {
+      return res
+        .status(400)
+        .json({ success: false, error: "Question number and comment are required" });
+    }
+
+    const functionDoc = await FunctionModel.findOne({ questionNumber });
+    if (functionDoc) {
+      functionDoc.comments.push({ text: comment });
+      await functionDoc.save();
+      res.json({ success: true, message: "Comment added successfully" });
+    } else {
+      res.status(404).json({ success: false, message: "Function not found" });
+    }
+  } catch (error) {
+    console.error("Error adding comment:", error);
+    res.status(500).json({ success: false, error: "Error adding comment" });
   }
 });
 
