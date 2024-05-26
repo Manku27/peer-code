@@ -16,7 +16,7 @@ mongoose
   });
 
 const app = express();
-const port = 8006;
+const port = process.env.PORT || 8006;
 
 const __dirname = import.meta.dirname;
 

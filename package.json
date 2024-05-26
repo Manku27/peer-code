@@ -5,9 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node --env-file .env.production server.js",
     "dev": "nodemon --env-file .env server.js",
-    "prod": "node --env-file .env.production server.js",
     "minify": "cleancss -o dist/styles.min.css src/client/styles.min.css",
     "obfuscate": "javascript-obfuscator src/client/script.min.js --output dist/script.min.js && javascript-obfuscator src/client/files.min.js --output dist/files.min.js",
     "build": "npm run obfuscate && npm run minify "
