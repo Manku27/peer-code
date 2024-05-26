@@ -3,6 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 20px;
+  overflow-y: hidden;
 }
 
 .container {
@@ -33,7 +34,7 @@ textarea,
 input[type="number"],
 button {
   padding: 5px;
-  margin: 5px;
+  margin-block: 5px;
   width: calc(100% - 20px); /* Adjust for padding and margin */
   box-sizing: border-box;
 }
@@ -64,16 +65,10 @@ code {
   margin-bottom: 10px;
 }
 
-/* Styles for the new HTML file */
 h1 {
   font-size: 1.5em;
   margin-bottom: 20px;
   text-align: center;
-}
-
-form {
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 textarea {
@@ -82,4 +77,24 @@ textarea {
 
 button {
   cursor: pointer;
+}
+
+.scroller-left,
+.scroller-right {
+  overflow-y: auto;
+
+  padding-bottom: 2em;
+}
+
+.scroller-left {
+  max-height: 80vh;
+}
+
+.scroller-right {
+  max-height: 70vh;
+}
+
+.scroller-left::-webkit-scrollbar,
+.scroller-right::-webkit-scrollbar {
+  display: none;
 }

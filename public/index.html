@@ -13,23 +13,28 @@
     <h1>Peer Code</h1>
     <div class="container">
       <div class="left">
-        <form id="searchForm">
-          <h2>Enter Question Name or Leetcode Question Number</h2>
-          <label for="query">Query:</label>
-          <input type="text" id="query" name="query" />
-          <input type="submit" value="Search" />
-        </form>
+        <div class="scroller-left">
+          <form id="searchForm">
+            <h2>Enter Question Name or Leetcode Question Number</h2>
+            <label for="query">Query:</label>
+            <input type="text" id="query" name="query" />
+            <input type="submit" value="Search" />
+          </form>
 
-        <div id="result"></div>
+          <div id="result"></div>
+        </div>
       </div>
       <div class="right">
         <h2>Comments</h2>
-        <form id="commentForm">
-          <label for="comment">Add Comment:</label>
-          <textarea id="comment" name="comment" rows="20" cols="50"></textarea>
-          <input type="submit" value="Submit Comment" />
-        </form>
-        <div id="comments-list"></div>
+        <div class="scroller-right">
+          <div id="comments-list"></div>
+
+          <form id="commentForm">
+            <label for="comment">Add Comment:</label>
+            <textarea id="comment" name="comment" rows="20" cols="50"></textarea>
+            <input type="submit" value="Submit Comment" />
+          </form>
+        </div>
       </div>
     </div>
 
