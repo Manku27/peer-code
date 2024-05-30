@@ -1,7 +1,8 @@
 import express from "express";
-import path from "path";
 import schemaRoutes from "./src/api/api.js";
 import mongoose from "mongoose";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 
 mongoose
   .connect(process.env.MONGO_URL, {
@@ -18,12 +19,13 @@ mongoose
 const app = express();
 const port = process.env.PORT || 8006;
 
-const __dirname = import.meta.dirname;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 console.log(__dirname);
 
 // Serve static files from the public directory
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(join(__dirname, "public")));
 
 // Endpoint for mongodb apis
 app.use(schemaRoutes);
