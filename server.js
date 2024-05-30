@@ -18,8 +18,6 @@ mongoose
 const app = express();
 const port = process.env.PORT || 8006;
 
-const __dirname = import.meta.dirname;
-
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, "public")));
 
