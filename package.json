@@ -8,8 +8,7 @@
     "start": "node server.js",
     "dev": "nodemon --env-file .env server.js",
     "minify": "cleancss -o dist/styles.min.css src/client/styles.min.css",
-    "obfuscate": "javascript-obfuscator src/client/script.min.js --output dist/script.min.js && javascript-obfuscator src/client/files.min.js --output dist/files.min.js",
-    "build": "npm run obfuscate && npm run minify "
+    "obfuscate": "javascript-obfuscator src/client/script.min.js --output dist/script.min.js && javascript-obfuscator src/client/files.min.js --output dist/files.min.js"
   },
   "repository": {
     "type": "git",
