@@ -22,10 +22,10 @@ const port = process.env.PORT || 8006;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-console.log(__dirname);
-
 // Serve static files from the public directory
 app.use(express.static(join(__dirname, "public")));
+
+app.use(express.static(join(__dirname, process.env.SOURCE)));
 
 // Endpoint for mongodb apis
 app.use(schemaRoutes);
