@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Manku27/peer-code#readme",
   "dependencies": {
     "express": "^4.19.2",
+    "marked": "^12.0.2",
     "mongoose": "^8.4.0"
   },
   "devDependencies": {
