@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon --env-file .env server.js",
-    "minify": "cleancss -o dist/styles.min.css src/client/styles.min.css",
+    "minify": "cleancss -o dist/styles.min.css src/client/styles.min.css && cleancss -o dist/markdown.min.css src/client/markdown.min.css",
     "obfuscate": "javascript-obfuscator src/client/script.min.js --output dist/script.min.js && javascript-obfuscator src/client/files.min.js --output dist/files.min.js",
     "build": "yarn obfuscate && yarn minify "
   },
