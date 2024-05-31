@@ -2,26 +2,28 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  margin: 20px;
+  margin: 2vh;
   overflow-y: hidden;
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
+  height: 100vh; /* Full viewport height */
 }
 
 .left,
 .right {
   width: 48%;
+  height: 100%;
 }
 
 .left {
-  max-width: 800px;
+  max-width: 80vw; /* Relative to the viewport width */
 }
 
 .right {
-  max-width: 400px;
+  max-width: 40vw; /* Relative to the viewport width */
 }
 
 label {
@@ -33,9 +35,9 @@ input[type="submit"],
 textarea,
 input[type="number"],
 button {
-  padding: 5px;
-  margin-block: 5px;
-  width: calc(100% - 20px); /* Adjust for padding and margin */
+  padding: 0.5vh;
+  margin-block: 0.5vh;
+  width: calc(100% - 2vh); /* Adjust for padding and margin */
   box-sizing: border-box;
 }
 
@@ -44,31 +46,31 @@ textarea {
 }
 
 pre {
-  max-width: 800px;
+  max-width: 100%;
   overflow-x: auto;
   white-space: pre-wrap;
 }
 
 code {
   display: block;
-  padding: 10px;
-  border: 1px solid #ccc;
+  padding: 1vh;
+  border: 0.1vh solid #ccc;
 }
 
 .comments-list {
-  max-height: 400px;
+  max-height: 40vh;
   overflow-y: auto;
-  border: 1px solid #ccc;
-  padding: 10px;
+  border: 0.1vh solid #ccc;
+  padding: 1vh;
 }
 
 .comment {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 h1 {
   font-size: 1.5em;
-  margin-bottom: 20px;
+
   text-align: center;
 }
 
@@ -83,7 +85,6 @@ button {
 .scroller-left,
 .scroller-right {
   overflow-y: auto;
-
   padding-bottom: 2em;
 }
 
