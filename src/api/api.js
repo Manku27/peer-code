@@ -18,9 +18,7 @@ router.get("/search", async (req, res) => {
     } else {
       searchCriteria = { questionName: { $regex: query, $options: "i" } };
     }
-    const searchResult = await FunctionModel.find(searchCriteria)
-      .sort({ questionNumber: -1 })
-      .limit(1); // Sort by questionNumber and limit to 1 result
+    const searchResult = await FunctionModel.find(searchCriteria).sort({ questionNumber: "asc" });
 
     if (searchResult.length > 0) {
       res.json({
