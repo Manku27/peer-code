@@ -1,8 +1,10 @@
 import express from "express";
-import schemaRoutes from "./src/api/api.js";
 import mongoose from "mongoose";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
+
+import schemaRoutes from "./src/api/api.js";
+import markdownRoutes from "./src/api/markdown-routes.js";
 
 mongoose
   .connect(process.env.MONGO_URL, {
@@ -29,7 +31,8 @@ app.use(express.static(join(__dirname, process.env.SOURCE)));
 
 // Endpoint for mongodb apis
 app.use(schemaRoutes);
+app.use(markdownRoutes);
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on Port:${port}`);
 });
