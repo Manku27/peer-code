@@ -10,12 +10,15 @@ router.get("/search", async (req, res) => {
   const { query } = req.query;
 
   try {
-    const searchResult = await FunctionModel.find({
-      $or: [
-        { questionNumber: parseInt(query) || 0 }, // Search by exact questionNumber or 0 if not a number
-        { questionName: { $regex: query, $options: "i" } }, // Case-insensitive partial match on questionName
-      ],
-    })
+    const isNumber = !isNaN(query) && query.trim() !== "";
+
+    let searchCriteria;
+    if (isNumber) {
+      searchCriteria = { questionNumber: parseInt(query) };
+    } else {
+      searchCriteria = { questionName: { $regex: query, $options: "i" } };
+    }
+    const searchResult = await FunctionModel.find(searchCriteria)
       .sort({ questionNumber: -1 })
       .limit(1); // Sort by questionNumber and limit to 1 result
 
