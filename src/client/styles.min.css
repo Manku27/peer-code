@@ -46,6 +46,7 @@ textarea {
 pre {
   max-width: 800px;
   overflow-x: auto;
+  white-space: pre-wrap;
 }
 
 code {
