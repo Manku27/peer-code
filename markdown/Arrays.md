@@ -2,13 +2,13 @@
 
 ## Iterate
 
-[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)\
-[Majority Element](https://leetcode.com/problems/majority-element/)\
+[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [(video)](https://youtu.be/E3FeuICmpRk?si=z_ennZw0FqcbNwyZ)
+
+[Gas Station](https://leetcode.com/problems/gas-station/) - [(video)](https://youtu.be/rDxDXlRmxag?si=zPwDBONx1auk9D5D)
+
+[Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+
 [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
-
-[Gas Station](https://leetcode.com/problems/gas-station/)
-
-[Move Zeroes](https://leetcode.com/problems/move-zeroes/) - 2 pointers
 
 ### Intervals
 
@@ -62,6 +62,8 @@
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - 2 pointers
 
 ## Duplicates or Remove
+
+[Majority Element](https://leetcode.com/problems/majority-element/)\
 
 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - Set\
 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) - Hashmap\
