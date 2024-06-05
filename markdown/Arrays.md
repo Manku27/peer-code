@@ -8,7 +8,7 @@
 
 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) - [(video)](https://youtu.be/aCRpvdurAJw?si=oKggqnB_jYOH3oBk)
 
-[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
+[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) - [(video)](https://youtu.be/LSfdQy1l-EY)
 
 ### Stocks
 
