@@ -8,12 +8,12 @@
 
 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) - [(video)](https://youtu.be/aCRpvdurAJw?si=oKggqnB_jYOH3oBk)
 
+### Increasing Subsequence
+
+[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - [(video)](https://youtu.be/aZ9VX2CrZJU)\
+[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - [(video)](https://youtu.be/aZ9VX2CrZJU)
+
 [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) - [(video)](https://youtu.be/LSfdQy1l-EY)
-
-### Stocks
-
-[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)\
-[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 ### Jump Game
 
