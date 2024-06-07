@@ -15,7 +15,7 @@
 
 [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) - [(video)](https://youtu.be/LSfdQy1l-EY)
 
-### Jump Game
+### Jump Game - [(video)](https://youtu.be/FGvdklR4IjM)
 
 [Jump Game](https://leetcode.com/problems/jump-game/)\
 [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
