@@ -20,7 +20,7 @@
 [Jump Game](https://leetcode.com/problems/jump-game/)\
 [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
-### All except self / neighbors
+### All except self / neighbors - [(video)](https://youtu.be/rkRTUpSThgk)
 
 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)\
 [Candy](https://leetcode.com/problems/candy/)
