@@ -1,35 +1,37 @@
 # Arrays
 
-## Iterate
-
 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [(video)](https://youtu.be/E3FeuICmpRk?si=z_ennZw0FqcbNwyZ)
 
 [Gas Station](https://leetcode.com/problems/gas-station/) - [(video)](https://youtu.be/rDxDXlRmxag?si=zPwDBONx1auk9D5D)
 
 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) - [(video)](https://youtu.be/aCRpvdurAJw?si=oKggqnB_jYOH3oBk)
 
-### Increasing Subsequence
+## Increasing Subsequence
 
 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - [(video)](https://youtu.be/aZ9VX2CrZJU)\
 [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - [(video)](https://youtu.be/aZ9VX2CrZJU)
 
 [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) - [(video)](https://youtu.be/LSfdQy1l-EY)
 
-### Jump Game - [(video)](https://youtu.be/FGvdklR4IjM)
+## Jump Game - [(video)](https://youtu.be/FGvdklR4IjM)
 
 [Jump Game](https://leetcode.com/problems/jump-game/)\
 [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
-### All except self / neighbors - [(video)](https://youtu.be/rkRTUpSThgk)
+## All except self / neighbors - [(video)](https://youtu.be/rkRTUpSThgk)
 
 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)\
 [Candy](https://leetcode.com/problems/candy/)
 
 ## Sliding window
 
-[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)\
-[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)\
 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+
+## Max Consecutive Ones - [(video)](https://youtu.be/Np8gon1E8Ss)
+
+[Max Consecutive Ones I](https://leetcode.com/problems/max-consecutive-ones/)\
+[Longest Subarray of 1's After Deleting One Element - Same as Max Consecutive Ones II](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)\
+[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
 ## Water
 
@@ -71,6 +73,6 @@
 [Rotate Array](https://leetcode.com/problems/rotate-array/)\
 [H-Index](https://leetcode.com/problems/h-index/)
 
-### Kadane's Algorithm
+## Kadane's Algorithm
 
 [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) - difficult
