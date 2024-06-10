@@ -25,6 +25,7 @@ router.get("/search", async (req, res) => {
         success: true,
         content: searchResult[0].value,
         questionNumber: searchResult[0].questionNumber,
+        questionName: searchResult[0].questionName,
       });
     } else {
       res.json({ success: false, message: "No matching function found." });
