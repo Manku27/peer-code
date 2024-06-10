@@ -12,14 +12,23 @@ router.get("/search", async (req, res) => {
   try {
     const isNumber = !isNaN(query) && query.trim() !== "";
 
-    let searchCriteria;
-    if (isNumber) {
-      searchCriteria = { questionNumber: parseInt(query) };
-    } else {
-      searchCriteria = { questionName: { $regex: query, $options: "i" } };
-    }
-    const searchResult = await FunctionModel.find(searchCriteria).sort({ questionNumber: "asc" });
+    let searchResult = [];
 
+    if (isNumber) {
+      searchResult = await FunctionModel.find({ questionNumber: parseInt(query) });
+    } else {
+      // Find an exact match, questionName : query is case senstivive
+      searchResult = await FunctionModel.find({
+        questionName: { $regex: `^${query}$`, $options: "i" },
+      });
+
+      // If no exact match is found, perform the regex search
+      if (searchResult.length === 0) {
+        searchResult = await FunctionModel.find({
+          questionName: { $regex: query, $options: "i" },
+        }).sort({ questionNumber: "asc" });
+      }
+    }
     if (searchResult.length > 0) {
       res.json({
         success: true,
