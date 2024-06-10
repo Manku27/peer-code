@@ -23,7 +23,7 @@
 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)\
 [Candy](https://leetcode.com/problems/candy/)
 
-## Sliding window
+## Sliding window - [(video)](https://youtu.be/dpzHAcs9J3k)
 
 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
@@ -35,31 +35,31 @@
 
 ## Water
 
-[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - 2 pointers\
-[Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - 2 pointers
+[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)\
+[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 ## Sum problems
 
-[Two Sum](https://leetcode.com/problems/two-sum/) - Hashmap\
-[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) - Hashmap\
-[Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) - 2 pointers\
-[3Sum](https://leetcode.com/problems/3sum/) - 2 pointers with anchor\
-[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) - sliding window\
-[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - Kadane's
+[Two Sum](https://leetcode.com/problems/two-sum/)\
+[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)\
+[Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)\
+[3Sum](https://leetcode.com/problems/3sum/)\
+[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)\
+[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 ## Duplicates or Remove
 
 [Majority Element](https://leetcode.com/problems/majority-element/)\
 
-[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - Set\
-[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) - Hashmap\
-[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - Set
+[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)\
+[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)\
+[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
-[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - Hashmap
+[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
-[Remove Element](https://leetcode.com/problems/remove-element/) - 2 pointer\
-[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - 2 pointer\
-[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - 2 pointer
+[Remove Element](https://leetcode.com/problems/remove-element/)\
+[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)\
+[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 ## Intervals
 
@@ -75,4 +75,4 @@
 
 ## Kadane's Algorithm
 
-[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) - difficult
+[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
