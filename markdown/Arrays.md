@@ -33,7 +33,7 @@
 [Longest Subarray of 1's After Deleting One Element - Same as Max Consecutive Ones II](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)\
 [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
-## Water
+## Water - [(video)](https://youtu.be/n-l5JKutZlw)
 
 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)\
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
