@@ -38,12 +38,15 @@
 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)\
 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
-## Sum problems
+## Sum problems - [(video)](https://youtu.be/uaVvuPL7coo)
 
 [Two Sum](https://leetcode.com/problems/two-sum/)\
 [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)\
 [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)\
 [3Sum](https://leetcode.com/problems/3sum/)\
+
+## Sub-array sums
+
 [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)\
 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
