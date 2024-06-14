@@ -43,22 +43,27 @@
 [Two Sum](https://leetcode.com/problems/two-sum/)\
 [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)\
 [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)\
-[3Sum](https://leetcode.com/problems/3sum/)\
+[3Sum](https://leetcode.com/problems/3sum/)
 
-## Sub-array sums
+## Sub-array sums - [(video)](https://youtu.be/AkD929gnkyQ)
 
 [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)\
 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
-## Duplicates or Remove
+## Frequency - [(video)](https://youtu.be/uSQ12BGacls)
 
-[Majority Element](https://leetcode.com/problems/majority-element/)\
+[Majority Element](https://leetcode.com/problems/majority-element/)
 
 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)\
-[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)\
-[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 
 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+
+## Sequence
+
+[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+
+## Remove elements
 
 [Remove Element](https://leetcode.com/problems/remove-element/)\
 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)\
