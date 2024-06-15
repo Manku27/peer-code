@@ -1,11 +1,5 @@
 # Arrays
 
-[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [(video)](https://youtu.be/E3FeuICmpRk?si=z_ennZw0FqcbNwyZ)
-
-[Gas Station](https://leetcode.com/problems/gas-station/) - [(video)](https://youtu.be/rDxDXlRmxag?si=zPwDBONx1auk9D5D)
-
-[Move Zeroes](https://leetcode.com/problems/move-zeroes/) - [(video)](https://youtu.be/aCRpvdurAJw?si=oKggqnB_jYOH3oBk)
-
 ## Increasing Subsequence
 
 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - [(video)](https://youtu.be/aZ9VX2CrZJU)\
@@ -59,28 +53,18 @@
 
 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
-## Sequence
-
-[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-
-## Remove elements
+## Remove elements - [(video)](https://youtu.be/bj9W9GBn9DU)
 
 [Remove Element](https://leetcode.com/problems/remove-element/)\
 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)\
 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
-## Intervals
+## Unique
 
-[Summary Ranges](https://leetcode.com/problems/summary-ranges/)\
-[Merge Intervals](https://leetcode.com/problems/merge-intervals/)\
-[Insert Interval](https://leetcode.com/problems/insert-interval/)\
-[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-
-## Sort of remember
-
+[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [(video)](https://youtu.be/E3FeuICmpRk?si=z_ennZw0FqcbNwyZ)\
+[Gas Station](https://leetcode.com/problems/gas-station/) - [(video)](https://youtu.be/rDxDXlRmxag?si=zPwDBONx1auk9D5D)\
+[Move Zeroes](https://leetcode.com/problems/move-zeroes/) - [(video)](https://youtu.be/aCRpvdurAJw?si=oKggqnB_jYOH3oBk)\
 [Rotate Array](https://leetcode.com/problems/rotate-array/)\
-[H-Index](https://leetcode.com/problems/h-index/)
-
-## Kadane's Algorithm
-
+[H-Index](https://leetcode.com/problems/h-index/)\
+[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)\
 [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
