@@ -39,10 +39,12 @@
 [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)\
 [3Sum](https://leetcode.com/problems/3sum/)
 
-## Sub-array sums - [(video)](https://youtu.be/AkD929gnkyQ)
+## Sub-array sums
 
-[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)\
-[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) - [(video)](https://youtu.be/AkD929gnkyQ)\
+[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - [(video)](https://youtu.be/AkD929gnkyQ)\
+[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) - [(video)](https://youtu.be/G0JXkwRDlO0)\
+[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) - [(video)](https://youtu.be/L1_9Q_6wSUI)
 
 ## Frequency - [(video)](https://youtu.be/uSQ12BGacls)
 
@@ -64,7 +66,26 @@
 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [(video)](https://youtu.be/E3FeuICmpRk?si=z_ennZw0FqcbNwyZ)\
 [Gas Station](https://leetcode.com/problems/gas-station/) - [(video)](https://youtu.be/rDxDXlRmxag?si=zPwDBONx1auk9D5D)\
 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) - [(video)](https://youtu.be/aCRpvdurAJw?si=oKggqnB_jYOH3oBk)\
-[Rotate Array](https://leetcode.com/problems/rotate-array/)\
-[H-Index](https://leetcode.com/problems/h-index/)\
-[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)\
-[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+[Rotate Array](https://leetcode.com/problems/rotate-array/) - [(video)](https://youtu.be/b2h4DrUpck8)\
+[H-Index](https://leetcode.com/problems/h-index/) - [(video)](https://youtu.be/0WuC40FpF58)\
+[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - [(video)](https://youtu.be/7LL6egzpIh4)\
+[Sort Colors](https://leetcode.com/problems/sort-colors/)\
+[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)\
+[Next Permutation](https://leetcode.com/problems/next-permutation)\
+[First Missing Positive](https://leetcode.com/problems/first-missing-positive)
+
+## Search
+
+[Search Insert Position](https://leetcode.com/problems/search-insert-position)\
+[Find Peak Element](https://leetcode.com/problems/find-peak-element)\
+[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)\
+[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)\
+[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)\
+[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)\
+[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)\
+[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
+
+## Do after Linked List && Bit Manipulation
+
+[Single Number](https://leetcode.com/problems/single-number)\
+[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)
