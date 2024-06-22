@@ -69,10 +69,10 @@
 [Rotate Array](https://leetcode.com/problems/rotate-array/) - [(video)](https://youtu.be/b2h4DrUpck8)\
 [H-Index](https://leetcode.com/problems/h-index/) - [(video)](https://youtu.be/0WuC40FpF58)\
 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - [(video)](https://youtu.be/7LL6egzpIh4)\
-[Sort Colors](https://leetcode.com/problems/sort-colors/)\
-[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)\
+[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) - [(video)](https://youtu.be/H08A_7RGxnk)\
 [Next Permutation](https://leetcode.com/problems/next-permutation)\
-[First Missing Positive](https://leetcode.com/problems/first-missing-positive)
+[First Missing Positive](https://leetcode.com/problems/first-missing-positive)\
+[Sort Colors](https://leetcode.com/problems/sort-colors/)
 
 ## Search
 
