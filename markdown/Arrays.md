@@ -1,4 +1,4 @@
-# Arrays
+# Arrays - 46
 
 ## Increasing Subsequence
 
@@ -70,17 +70,15 @@
 [H-Index](https://leetcode.com/problems/h-index/) - [(video)](https://youtu.be/0WuC40FpF58)\
 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - [(video)](https://youtu.be/7LL6egzpIh4)\
 [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) - [(video)](https://youtu.be/H08A_7RGxnk)\
-[Next Permutation](https://leetcode.com/problems/next-permutation)\
-[First Missing Positive](https://leetcode.com/problems/first-missing-positive)\
-[Sort Colors](https://leetcode.com/problems/sort-colors/)
+[Next Permutation](https://leetcode.com/problems/next-permutation) - [(video)](https://youtu.be/uMdqVL2vrTg)\
+[First Missing Positive](https://leetcode.com/problems/first-missing-positive) - [(video)](https://youtu.be/q3XbkBaEluE)
 
 ## Search
 
-[Search Insert Position](https://leetcode.com/problems/search-insert-position)\
-[Find Peak Element](https://leetcode.com/problems/find-peak-element)\
+[Search Insert Position](https://leetcode.com/problems/search-insert-position) - [(video)](https://youtu.be/zp8TprXrEhw)\
+[Find Peak Element](https://leetcode.com/problems/find-peak-element) - [(video)](https://youtu.be/BuvO6Pl6VmM)\
 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)\
 [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)\
-[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)\
 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)\
 [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)\
 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
